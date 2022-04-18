@@ -1,0 +1,62 @@
+.carousel img{
+
+    height: 400px;
+    width: 400px;
+    margin-top: -15rem;
+
+}
+
+
+.gallery-preview{
+    background-image: url('bg-2.png');
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+    margin-top: 6rem;
+    position: relative;
+
+}
+
+.gallery-text{
+    color: rgba(214, 218, 223, 0.4);
+    font-size: 45px;
+    margin: auto;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    
+   
+}
+
+
+.small-text{
+    font-size: 32px;
+}
+
+
+
+
+@media (max-width:600px) {
+.gallery-preview{
+    margin: 0;
+    background: none;
+}
+
+.carousel img{
+
+    height: 200px;
+    width: 300px;
+    margin-top: 2rem;
+
+}
+
+.gallery-text{
+    display: none;
+}
+
+
+}
