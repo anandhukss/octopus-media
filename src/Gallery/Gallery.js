@@ -13,7 +13,7 @@ function Gallery() {
   ];
 
   return (
-    <div className="gallery-preview">
+    <div id="gallery" className="gallery-preview">
       <div className="carousel">
         <Carousel
           slides={slides}

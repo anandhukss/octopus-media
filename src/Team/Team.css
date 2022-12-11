@@ -1,0 +1,64 @@
+.team-container {
+  margin: 6rem;
+  color: white;
+}
+
+.lead-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.lead-about h1 {
+  font-size: 20px;
+}
+
+.lead-about h2 {
+  font-size: 14px;
+}
+
+.lead-about .content {
+  font-size: 12px;
+  width: 70%;
+  color: grey;
+}
+
+.lead-img {
+  display: flex;
+  justify-content: center;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.member {
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.role {
+  font-size: 12px;
+  padding-left: 2rem;
+  color: grey;
+}
+
+@media (max-width: 600px) {
+  .team-container {
+    margin: 2rem;
+  }
+
+  .lead-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .team-members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .member-individual {
+    padding: 0.2rem;
+  }
+}

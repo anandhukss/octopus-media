@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Header() {
   return (
@@ -7,7 +8,9 @@ function Header() {
       <div className="nav">
         <input type="checkbox" id="nav-check" />
         <div className="nav-header">
-          <div className="nav-title">JoGeek</div>
+          <div onClick={() => scroll.scrollToTop()} className="nav-title">
+            OCTOPUS
+          </div>
         </div>
         <div className="nav-btn">
           <label htmlFor="nav-check">
@@ -18,11 +21,37 @@ function Header() {
         </div>
 
         <div className="nav-links">
-          <a href="//github.io/jo_geek">Who we are</a>
-          <a href="http://stackoverflow.com/users/4084003/">Services</a>
-          <a href="https://in.linkedin.com/in/jonesvinothjoseph">Team</a>
-          <a href="https://codepen.io/jo_Geek/">Gallery</a>
-          <a href="https://jsfiddle.net/user/jo_Geek/">Contact</a>
+          <Link to="">Who we are</Link>
+          <Link
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Services
+          </Link>
+          <Link spy={true} smooth={true} offset={-70} duration={500} to="team">
+            Team
+          </Link>
+          <Link
+            to="gallery"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Gallery
+          </Link>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contact
+          </Link>
         </div>
       </div>
     </div>

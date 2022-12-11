@@ -27,7 +27,7 @@ function Services() {
 
   let services = service_arr.map((el, index) => {
     return (
-      <div key={index} className="services">
+      <div key={index} id="services" className="services">
         <div className="service-heading">{el.title}</div>
         <div className="service-content">{el.content}</div>
       </div>
