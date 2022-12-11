@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/octopus-media/static/css/main.ebc7791c.css",
+    "main.js": "/octopus-media/static/js/main.2d44495b.js",
+    "static/media/bg-2.png": "/octopus-media/static/media/bg-2.0937aa42b98d2c174aab.png",
+    "static/media/bg-4.png": "/octopus-media/static/media/bg-4.1b9bebc50eb1dcdbdfa6.png",
+    "static/media/bg1-octo.png": "/octopus-media/static/media/bg1-octo.b66d235c0454c1369af2.png",
+    "static/media/sharin.png": "/octopus-media/static/media/sharin.b4c7ffae7845b87c2dfc.png",
+    "index.html": "/octopus-media/index.html",
+    "main.ebc7791c.css.map": "/octopus-media/static/css/main.ebc7791c.css.map",
+    "main.2d44495b.js.map": "/octopus-media/static/js/main.2d44495b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebc7791c.css",
+    "static/js/main.2d44495b.js"
+  ]
+}
